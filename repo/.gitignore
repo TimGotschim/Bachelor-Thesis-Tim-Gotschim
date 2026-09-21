@@ -1,0 +1,24 @@
+# Secrets - never commit API keys
+.env
+*.key
+
+# Data files (catalogues are submitted with the thesis, not via Git)
+*.xlsx
+*.xls
+*.csv
+*.json
+!requirements.json
+
+# Progress / resume files written by the pipelines
+*_progress.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
